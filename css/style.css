@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(190, 152, 206);
+}
+main{
+    background-color: black;
+}
+header{
+    background-color: white
+}
+
+
+@media screen and (max-width: 481px) { /*Celular*/
+    body{
+        background-color: rgb(84, 1, 117);
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px){ /*Tablet*/
+    body{
+        background-color: rgb(145, 89, 167);
+    }
+}
+
+/*@media screen and (min-width: 1025px) {
+    body{
+        background-color: rgb(170, 137, 184);
+    }
+}
